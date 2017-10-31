@@ -1,0 +1,17 @@
+// bootstrap tags
+
+
+.nav-tabs{
+	border: none;
+
+	.nav-link{
+		border: none;
+		border-bottom: 2px solid $color_light;
+		font-size: 12px;
+		text-transform: uppercase;
+
+		&.active{
+			border-bottom: 2px solid $color_green;
+		}
+	}
+}

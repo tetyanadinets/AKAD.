@@ -1,0 +1,124 @@
+
+/*footer*/
+.ak-footer{
+	background-color: #7beec7;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+.ak-footer__h3{
+	text-transform: uppercase;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 48px;
+	margin: 0;
+	margin-top: -10px;
+}
+.ak-footer__link{
+	line-height: 50px;
+	background-color: #FFF;
+	color: #7BEEC7;
+	text-transform: uppercase;
+	padding: 0 30px;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.ak-footer__form{
+	background-color: #FFF;
+	padding-bottom: 20px;
+
+}
+.ak-footer__form-info{
+	color: #999;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.ak-footer__form-title{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 26px;
+	padding-right: 40%;
+	padding-top: 20px;
+}
+
+.ak-footer__input-email{
+	background-color: transparent;
+	border: 1px solid #e5e5e5;
+	line-height: 48px;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 20px;
+	vertical-align: middle;
+	border-right: 0;
+	width: calc(100% - 165px);
+}
+
+.ak-footer__form-container{
+	font-size: 0;
+	.ak-footer__input-email:focus{
+		outline: none;
+		border: 1px solid #7BEEC7;
+	}
+
+	input[type="submit"]{
+		background-color: #7BEEC7;
+		color: #FFF;
+		line-height: 48px;
+		font-size: 14px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		border: none;
+		vertical-align: middle;
+		width: 135px;
+		cursor: pointer;
+	}
+
+}
+.ak-footer__menu{
+	margin-bottom: 30px;
+	&-items{
+		list-style: none;
+		padding: 0;
+
+	}
+	&-item{
+		display: inline-block;
+		text-transform: uppercase;
+		font-family: 'Open Sans', sans-serif;
+		color: #9a9a9a;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 48px;
+		padding-left: 10px;
+
+
+		&:after{
+			content: "-";
+			padding-left: 10px;
+		}
+		&:last-child:after{
+			content: none;
+			padding-left: 0;
+		}
+
+
+	}
+}
+.copyright{
+	font-family: 'Open Sans', sans-serif;
+	color: #9a9a9a;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 38px;
+	text-align: right;
+}

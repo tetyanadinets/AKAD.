@@ -1,0 +1,142 @@
+.ak-blog{
+	&__search{
+		font-size: 0;
+		margin-bottom: 50px;
+
+		input[type="text"] {
+			width: calc(100% - 50px);
+			background-color: #ececec;
+			padding: 0 15px;
+			height: 40px;
+			line-height: 40px;
+			border: none;
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 12px;
+		}
+
+		button{
+			height: 40px;
+			width: 50px;
+			line-height: 40px;
+			display: inline-block;
+			vertical-align: middle;
+			border: none;
+			background-color: #ececec;
+			font-size: 18px;
+			white-space: nowrap;
+			overflow: hidden;
+			padding: 0 18px;
+			color: #999;
+			span{
+				text-indent: 100px;
+				display: inline-block;
+				color: #999;
+			}
+		}
+	}
+}
+.ak-post{
+	margin-bottom: 70px;
+
+	&:first-child{
+		margin-top: -90px;
+
+		@include media-breakpoint-down(sm) {
+			margin-top: 0;
+		}
+
+	}
+
+
+	&__thumb{
+		margin-bottom: 30px;
+
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	&__info{
+		margin: 30px 0 20px;
+	}
+
+	&__likes{
+		&-icon{
+			color: red;
+		}
+
+	}
+	&__title{
+		font-size: 18px;
+	}
+
+	&__continue{
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 14px;
+		margin: 30px 0;
+		display: inline-block;
+	}
+}
+
+
+
+.ak-blog-sp{
+	font-size: 0;
+	margin: 10px 0;
+	&__img{
+		display: inline-block;
+		vertical-align: middle;
+		width: 80px;
+		height: 80px;
+		padding-right: 10px;
+	}
+	&__info{
+		font-size: 12px;
+		width: calc(100% - 80px);
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+.ak-categories{
+	margin-top: 25px;
+	&__table{
+		width: 100%;
+		tr{
+			border-bottom: 1px solid #60606E;
+			line-height: 48px;
+		}
+		td{
+			padding: 0 10px;
+		}
+	}
+}
+.ak-tags{
+	width: 100%;
+	margin-top: 25px;
+	ul{
+		list-style: none;
+		padding-left: 0;
+		li{
+			display: inline-block;
+			padding-bottom: 10px;
+			a{
+				background-color: #e5e5e5;
+				text-decoration: none;
+				text-transform: uppercase;
+				color: #999999;
+				font-size: 12px;
+				font-weight: 700;
+				line-height: 35px;
+				text-align: center;
+				padding: 0 10px;
+				display: inline-block;
+				&:hover{
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+}
